@@ -1,0 +1,18 @@
+/* Define header styles with flexbox and proper spacing */
+.header {
+  padding: var(--mantine-spacing-md) var(--mantine-spacing-lg); /* Uses Mantine's spacing variables */
+  display: flex;
+  flex-direction: row; /* Ensures header items are placed horizontally */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Space out the content between the left (logo) and right (user dropdown) */
+  width: 100%; /* Ensure header takes up the full width */
+  background-color: #fff; /* Customize background color as needed */
+  color: lightdark(var(--mantine-color-white), var(--mantine-color-dark)); /* Use light/dark color */
+  gap: var(--mantine-spacing-md); /* Adds space between items */
+}
+
+/* Additional styling for header to handle logo positioning */
+.header > img {
+  max-width: 210px; /* Ensure logo doesn't stretch too wide */
+  height: 40px;
+}

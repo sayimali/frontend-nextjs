@@ -1,0 +1,17 @@
+.footer {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px 0;
+  border-top: 1px solid #e9ecef; /* Subtle border for separation */
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px; /* Spacing between elements if Stack issues persist */
+}
+
+.inner > * {
+  text-align: center; /* Ensure all text is centered */
+}

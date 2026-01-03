@@ -1,0 +1,6 @@
+.mantine-TableHeadCell {
+  white-space: normal !important;
+  word-break: break-word !important;
+  text-align: center !important;
+  line-height: 1.2 !important;
+}
