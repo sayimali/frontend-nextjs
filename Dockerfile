@@ -4,8 +4,9 @@ WORKDIR /app
 
 COPY . .
 
-# Husky & prepare scripts skip
 ENV NODE_ENV=production
+ENV HUSKY=0
+
 RUN npm install --production --legacy-peer-deps --ignore-scripts
 
 EXPOSE 3000
